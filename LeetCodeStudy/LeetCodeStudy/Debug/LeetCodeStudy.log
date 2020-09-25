@@ -1,0 +1,4 @@
+﻿  NQueen.cpp
+E:\GIT\LeetCodeStudy\LeetCodeStudy\LeetCodeStudy\NQueen.cpp(106,23): warning C4018: “<”: 有符号/无符号不匹配
+E:\GIT\LeetCodeStudy\LeetCodeStudy\LeetCodeStudy\NQueen.cpp(109,27): warning C4018: “<”: 有符号/无符号不匹配
+  LeetCodeStudy.vcxproj -> E:\GIT\LeetCodeStudy\LeetCodeStudy\Debug\LeetCodeStudy.exe
