@@ -2,6 +2,13 @@
 #include <iostream>
 #include <unordered_set>
 
+void Q_139::Execute()
+{
+    string str = "applepenapple";
+    vector<string> wordDict{ "apple", "pen" };
+    cout << ans_02(str, wordDict);
+}
+
 //暴力递归求解，时间复杂度O(n^2)
 //思路：每次循环字符串只找最前面列表里存在的子项
 bool Q_139::ans_01(string s, vector<string>& wordDict)
@@ -41,11 +48,4 @@ bool Q_139::ans_02(string s, vector<string>& wordDict)
         }
     }
     return dp[s.size()];
-}
-
-void Q_139::Execute()
-{
-	string str = "applepenapple";
-	vector<string> wordDict{"apple", "pen" };
-	cout << ans_02(str, wordDict);
 }

@@ -24,6 +24,9 @@ using namespace std;
 class Q_543 : public IQuestion
 {
 public:
+
+	//ans = 1开始是因为，一条路径的长度=节点数-1，求路径长度相当于求经过一个节点数最大值-1
+	//计算节点深度：max(l,r)+1，计算当前节点最大路径数：l+r+1
 	int ans_01(TreeNode* root);
 	int depth(TreeNode* root);
 	void Execute() override;

@@ -151,7 +151,12 @@
     <ClCompile Include="LeetCodeStudy.cpp" />
     <ClCompile Include="NQueen.cpp" />
     <ClCompile Include="Q_139.cpp" />
+    <ClCompile Include="Q_152.cpp" />
+    <ClCompile Include="Q_207.cpp" />
+    <ClCompile Include="Q_239.cpp" />
+    <ClCompile Include="Q_437.cpp" />
     <ClCompile Include="Q_543.cpp" />
+    <ClCompile Include="TopK.cpp" />
     <ClCompile Include="Types.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -159,7 +164,16 @@
     <ClInclude Include="IQuestion.h" />
     <ClInclude Include="NQueen.h" />
     <ClInclude Include="Q_139.h" />
+    <ClInclude Include="Q_152.h" />
+    <ClInclude Include="Q_207.h" />
+    <ClInclude Include="Q_239.h" />
+    <ClInclude Include="Q_437.h" />
     <ClInclude Include="Q_543.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="TopK.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LeetCodeStudy.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

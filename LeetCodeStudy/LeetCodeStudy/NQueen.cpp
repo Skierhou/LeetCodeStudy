@@ -2,7 +2,7 @@
 
 void NQueen::Execute()
 {
-    ans_01(6);
+    ans_02(6);
 }
 
 #pragma region 解法一：相当于暴力回溯
@@ -69,6 +69,7 @@ bool NQueen::ans_01_check(vector<vector<char>> vec, int i, int layer, int n)
 #pragma endregion
 
 #pragma region 解法二：优化解法，空间优化
+//利用三个hashset 分别代表 行 左斜 右斜 ，即下一次不能存放的点，每次存放完 三个hashset存入当前节点，左斜整体左移，右斜整体右移即可
 vector<vector<string>> NQueen::ans_02(int n)
 {
     vector<vector<string>> res;
@@ -104,14 +105,8 @@ vector<string> NQueen::ans_02_generated(vector<int> vec)
     vector<string> res;
     for (int i = 0; i < vec.size(); i++)
     {
-        string str;
-        for (int j = 0; j < vec.size(); j++)
-        {
-            if (vec[i] == j)
-                str += 'Q';
-            else
-                str += '.';
-        }
+        string str(vec.size(),'.');
+        str[i] = 'Q';
         res.push_back(str);
     }
     return res;

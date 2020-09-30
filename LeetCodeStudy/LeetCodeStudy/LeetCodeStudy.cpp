@@ -4,11 +4,14 @@
 #include <iostream>
 #include "Q_543.h"
 #include "Q_139.h"
+#include "Q_207.h"
+#include "Q_239.h"
 #include "NQueen.h"
+#include "TopK.h"
 
 int main()
 {
-    IQuestion *q = new NQueen();
+    IQuestion *q = new Q_239();
     q->Execute();
 
     return 0;

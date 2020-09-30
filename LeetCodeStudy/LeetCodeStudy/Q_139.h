@@ -33,8 +33,14 @@ using namespace std;
 class Q_139:public IQuestion
 {
 public:
-	bool ans_01(string s, vector<string>& wordDict);
-	bool ans_02(string s, vector<string>& wordDict);
 	void Execute() override;
+
+	//暴力递归求解，时间复杂度O(n^2)
+	//思路：每次循环字符串只找最前面列表里存在的子项
+	bool ans_01(string s, vector<string>& wordDict);
+
+	//动态规划求解：时间复杂度O(n^2)
+	//j<i的情况下，dp[i]=dp[j] && check(substr(j,i))
+	bool ans_02(string s, vector<string>& wordDict);
 };
 

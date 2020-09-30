@@ -45,6 +45,21 @@
     <ClCompile Include="Bag01.cpp">
       <Filter>源文件\Base</Filter>
     </ClCompile>
+    <ClCompile Include="Q_207.cpp">
+      <Filter>源文件\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Q_437.cpp">
+      <Filter>源文件\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="TopK.cpp">
+      <Filter>源文件\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Q_239.cpp">
+      <Filter>源文件\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Q_152.cpp">
+      <Filter>源文件\LeetCode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Q_543.h">
@@ -62,5 +77,28 @@
     <ClInclude Include="Bag01.h">
       <Filter>头文件\Base</Filter>
     </ClInclude>
+    <ClInclude Include="Q_207.h">
+      <Filter>头文件\LeetCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Q_437.h">
+      <Filter>头文件\LeetCode</Filter>
+    </ClInclude>
+    <ClInclude Include="TopK.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Q_239.h">
+      <Filter>头文件\LeetCode</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Q_152.h">
+      <Filter>头文件\LeetCode</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LeetCodeStudy.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
