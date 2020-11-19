@@ -33,9 +33,6 @@
     <ClCompile Include="Q_543.cpp">
       <Filter>源文件\LeetCode</Filter>
     </ClCompile>
-    <ClCompile Include="Types.cpp">
-      <Filter>头文件</Filter>
-    </ClCompile>
     <ClCompile Include="Q_139.cpp">
       <Filter>源文件\LeetCode</Filter>
     </ClCompile>
@@ -59,6 +56,42 @@
     </ClCompile>
     <ClCompile Include="Q_152.cpp">
       <Filter>源文件\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Q_399.cpp">
+      <Filter>源文件\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Q_24.cpp">
+      <Filter>源文件\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Q_530.cpp">
+      <Filter>源文件\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Q_1002.cpp">
+      <Filter>源文件\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Q_143.cpp">
+      <Filter>源文件\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Q_148.cpp">
+      <Filter>源文件\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Q_287.cpp">
+      <Filter>源文件\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Q_44.cpp">
+      <Filter>源文件\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Q_146.cpp">
+      <Filter>源文件\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Q_973.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Q_31.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BagTest.cpp">
+      <Filter>源文件\Base</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +127,42 @@
     </ClInclude>
     <ClInclude Include="Q_152.h">
       <Filter>头文件\LeetCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Q_399.h">
+      <Filter>头文件\LeetCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Q_24.h">
+      <Filter>头文件\LeetCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Q_530.h">
+      <Filter>头文件\LeetCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Q_1002.h">
+      <Filter>头文件\LeetCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Q_143.h">
+      <Filter>头文件\LeetCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Q_44.h">
+      <Filter>头文件\LeetCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Q_146.h">
+      <Filter>头文件\LeetCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Q_148.h">
+      <Filter>头文件\LeetCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Q_287.h">
+      <Filter>头文件\LeetCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Q_973.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Q_31.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-#include "Types.cpp"
+#include "Types.h"
 #include "IQuestion.h"
 using namespace std;
 

@@ -148,29 +148,52 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Bag01.cpp" />
+    <ClCompile Include="BagTest.cpp" />
     <ClCompile Include="LeetCodeStudy.cpp" />
     <ClCompile Include="NQueen.cpp" />
+    <ClCompile Include="Q_1002.cpp" />
     <ClCompile Include="Q_139.cpp" />
+    <ClCompile Include="Q_143.cpp" />
+    <ClCompile Include="Q_146.cpp" />
+    <ClCompile Include="Q_148.cpp" />
     <ClCompile Include="Q_152.cpp" />
     <ClCompile Include="Q_207.cpp" />
     <ClCompile Include="Q_239.cpp" />
+    <ClCompile Include="Q_24.cpp" />
+    <ClCompile Include="Q_287.cpp" />
+    <ClCompile Include="Q_31.cpp" />
+    <ClCompile Include="Q_399.cpp" />
     <ClCompile Include="Q_437.cpp" />
+    <ClCompile Include="Q_44.cpp" />
+    <ClCompile Include="Q_530.cpp" />
     <ClCompile Include="Q_543.cpp" />
+    <ClCompile Include="Q_973.cpp" />
     <ClCompile Include="TopK.cpp" />
-    <ClCompile Include="Types.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bag01.h" />
     <ClInclude Include="IQuestion.h" />
     <ClInclude Include="NQueen.h" />
+    <ClInclude Include="Q_1002.h" />
     <ClInclude Include="Q_139.h" />
+    <ClInclude Include="Q_143.h" />
+    <ClInclude Include="Q_146.h" />
+    <ClInclude Include="Q_148.h" />
     <ClInclude Include="Q_152.h" />
     <ClInclude Include="Q_207.h" />
     <ClInclude Include="Q_239.h" />
+    <ClInclude Include="Q_24.h" />
+    <ClInclude Include="Q_287.h" />
+    <ClInclude Include="Q_31.h" />
+    <ClInclude Include="Q_399.h" />
     <ClInclude Include="Q_437.h" />
+    <ClInclude Include="Q_44.h" />
+    <ClInclude Include="Q_530.h" />
     <ClInclude Include="Q_543.h" />
+    <ClInclude Include="Q_973.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="TopK.h" />
+    <ClInclude Include="Types.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LeetCodeStudy.rc" />

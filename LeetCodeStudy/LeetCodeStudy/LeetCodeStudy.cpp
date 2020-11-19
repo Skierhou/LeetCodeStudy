@@ -2,17 +2,35 @@
 //
 
 #include <iostream>
-#include "Q_543.h"
-#include "Q_139.h"
-#include "Q_207.h"
-#include "Q_239.h"
-#include "NQueen.h"
-#include "TopK.h"
+#include "Q_31.h"
+#include <algorithm>
+
+void sortEx(vector<int>& vec, int start, int end)
+{
+    if (start >= end) return;
+
+    int l = start, r = end;
+    int record = vec[start];
+    while (l < r)
+    {
+        while (vec[r] >= record && l < r)
+            --r;
+        if (l < r)
+            vec[l] = vec[r];
+        while (vec[l] <= record && l < r)
+            ++l;
+        if (l < r)
+            vec[r] = vec[l];
+    }
+    vec[l] = record;
+    sortEx(vec, start, l - 1);
+    sortEx(vec, l + 1, end);
+}
 
 int main()
 {
-    IQuestion *q = new Q_239();
-    q->Execute();
+    /*IQuestion *q = new Q_31();
+    q->Execute();*/
 
     return 0;
 }

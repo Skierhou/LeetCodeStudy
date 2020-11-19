@@ -1,8 +1,2 @@
 ﻿  LeetCodeStudy.cpp
-  Q_152.cpp
-E:\GIT\LeetCodeStudy\LeetCodeStudy\LeetCodeStudy\Q_152.cpp(12,23): warning C4018: “<”: 有符号/无符号不匹配
-E:\GIT\LeetCodeStudy\LeetCodeStudy\LeetCodeStudy\Q_152.cpp(15,16): error C3861: “max”: 找不到标识符
-E:\GIT\LeetCodeStudy\LeetCodeStudy\LeetCodeStudy\Q_152.cpp(16,31): warning C4018: “<”: 有符号/无符号不匹配
-E:\GIT\LeetCodeStudy\LeetCodeStudy\LeetCodeStudy\Q_152.cpp(19,20): error C3861: “max”: 找不到标识符
-  Q_239.cpp
-  正在生成代码...
+  LeetCodeStudy.vcxproj -> E:\GIT\LeetCodeStudy\LeetCodeStudy\Debug\LeetCodeStudy.exe
