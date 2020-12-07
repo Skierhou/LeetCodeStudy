@@ -2,8 +2,11 @@
 //
 
 #include <iostream>
-#include "Q_31.h"
+#include "Q_321.h"
 #include <algorithm>
+#include <vector>
+
+using namespace std;
 
 void sortEx(vector<int>& vec, int start, int end)
 {
@@ -29,8 +32,8 @@ void sortEx(vector<int>& vec, int start, int end)
 
 int main()
 {
-    /*IQuestion *q = new Q_31();
-    q->Execute();*/
+    IQuestion *q = new Q_321();
+    q->Execute();
 
     return 0;
 }

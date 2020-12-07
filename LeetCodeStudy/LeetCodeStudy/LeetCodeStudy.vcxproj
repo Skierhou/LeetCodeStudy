@@ -162,6 +162,7 @@
     <ClCompile Include="Q_24.cpp" />
     <ClCompile Include="Q_287.cpp" />
     <ClCompile Include="Q_31.cpp" />
+    <ClCompile Include="Q_321.cpp" />
     <ClCompile Include="Q_399.cpp" />
     <ClCompile Include="Q_437.cpp" />
     <ClCompile Include="Q_44.cpp" />
@@ -185,6 +186,7 @@
     <ClInclude Include="Q_24.h" />
     <ClInclude Include="Q_287.h" />
     <ClInclude Include="Q_31.h" />
+    <ClInclude Include="Q_321.h" />
     <ClInclude Include="Q_399.h" />
     <ClInclude Include="Q_437.h" />
     <ClInclude Include="Q_44.h" />

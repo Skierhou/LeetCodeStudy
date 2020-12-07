@@ -93,6 +93,9 @@
     <ClCompile Include="BagTest.cpp">
       <Filter>源文件\Base</Filter>
     </ClCompile>
+    <ClCompile Include="Q_321.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Q_543.h">
@@ -162,6 +165,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Q_31.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Q_321.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
